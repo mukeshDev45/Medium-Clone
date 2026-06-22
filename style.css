@@ -196,3 +196,45 @@ h2 {
 .mt {
   margin-top: 25px;
 }
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  padding: 20px;
+  border-right: 1px solid #eee;
+}
+
+.feed {
+  flex: 1;
+  padding: 20px;
+}
+
+.rightbar {
+  width: 300px;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.sidebar ul li:hover {
+  background: #f5f5f5;
+}
+
+.sidebar ul li.active {
+  background: #e6f7ff;
+  font-weight: bold;
+}
